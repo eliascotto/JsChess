@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+
+  <title>JsChess</title>
+  <link rel="stylesheet" type="text/css" href="static/chessboard.min.css">
+  <link rel="stylesheet" type="text/css" href="src/main.css">
+
+</head>
+<body>
+
+  <div class="header">
+    <h1>JsChess!</h1>
+    <div class="buttons">
+      <button onclick="startGame()">New Game white</button><br/><br/>
+      <button onclick="startGame(true)">New Game black</button><br/><br/>
+    </div>
+  </div>
+  <div id="board" class="board"></div>
+
+  <script src="static/jquery.min.js"></script>
+  <script src="static/chessboard.min.js"></script>
+  <script src="static/chess.min.js"></script>
+  <script src="src/main.js"></script>
+
+</body>
+</html>

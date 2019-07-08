@@ -1,0 +1,25 @@
+.header {
+  margin: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.buttons button {
+  margin: 0 20px;
+}
+
+.board {
+    width: 400px;
+    margin: auto
+}
